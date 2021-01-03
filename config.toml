@@ -2,8 +2,13 @@ baseURL = "https://pierre.aboucaya.name/"
 languageCode = "fr"
 title = "Pierre Aboucaya"
 
-# Theme
-theme = "github.com/forestryio/hugo-theme-novela"
+# Theme settings
+# theme: novela
+[module]
+  [[module.imports]]
+    path = "github.com/forestryio/hugo-theme-novela"
+
+pygmentsstyle = "monokai"
 
 paginate = 6
 
